@@ -11,7 +11,7 @@ struct TrailingIconLabelStyle: LabelStyle {
 	func makeBody(configuration: Configuration) -> some View {
 		HStack {
 			configuration.title
-			configuration.icon
+			configuration.icon 
 		}
 	}
 }

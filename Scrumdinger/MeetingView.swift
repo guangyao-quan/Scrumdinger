@@ -18,7 +18,7 @@ struct MeetingView: View {
                     Label("300", systemImage: "hourglass.tophalf.fill")
                 }
                 Spacer()
-                VStack(alignment: .trailing) {
+                VStack(alignment: .trailing) { 
                     Text("Seconds Remaining")
                         .font(.caption)
                     Label("600", systemImage: "hourglass.bottomhalf.fill")
